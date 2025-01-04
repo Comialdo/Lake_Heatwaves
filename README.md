@@ -1,10 +1,13 @@
 
+```
 ██╗      █████╗ ██╗  ██╗███████╗    ██╗  ██╗███████╗ █████╗ ████████╗██╗    ██╗ █████╗ ██╗   ██╗███████╗███████╗
 ██║     ██╔══██╗██║ ██╔╝██╔════╝    ██║  ██║██╔════╝██╔══██╗╚══██╔══╝██║    ██║██╔══██╗██║   ██║██╔════╝██╔════╝
 ██║     ███████║█████╔╝ █████╗      ███████║█████╗  ███████║   ██║   ██║ █╗ ██║███████║██║   ██║█████╗  ███████╗
 ██║     ██╔══██║██╔═██╗ ██╔══╝      ██╔══██║██╔══╝  ██╔══██║   ██║   ██║███╗██║██╔══██║╚██╗ ██╔╝██╔══╝  ╚════██║
 ███████╗██║  ██║██║  ██╗███████╗    ██║  ██║███████╗██║  ██║   ██║   ╚███╔███╔╝██║  ██║ ╚████╔╝ ███████╗███████║
 ╚══════╝╚═╝  ╚═╝╚═╝  ╚═╝╚══════╝    ╚═╝  ╚═╝╚══════╝╚═╝  ╚═╝   ╚═╝    ╚══╝╚══╝ ╚═╝  ╚═╝  ╚═══╝  ╚══════╝╚══════╝
+```
+
                                                                                                                 
 
 ## Overview
@@ -20,7 +23,7 @@ The notebooks are organized into two main folders:
 This folder contains notebooks that extend the Lake Surface Water Temperature (LSWT) data over a period of 30 years. This step leverages the automation of the Air2Water model (Piccolroaz et al., 2013) over each grid cell representing the lake area, using a corresponding air temperature time series for the same period.  
 The primary goal is to compute the climatology of each grid cell, as this requires data spanning at least three decades.
 
-### 2. Heatwave Calculation
+### 2_HWs_calculation
 
 The second folder contains notebooks that use the climatology to calculate and generate the final lake heatwaves dataset.
 
